@@ -6,16 +6,19 @@
     app:startDestination="@id/navigation_home">
 
     <fragment
+
+        android:name="com.example.pgsearch.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home"
         android:id="@+id/navigation_home"
         android:label="@string/home" />
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_people"
         android:label="@string/people" />
     <fragment
-        android:id="@+id/navigation_categories"
+        android:id="@+id/navigation_fund"
         android:label="@string/fund" />
     <fragment
-        android:id="@+id/navigation_rentit"
+        android:id="@+id/navigation_profile"
         android:label="@string/profile"/>
 
 </navigation>
