@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:label="@string/home" />
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:label="@string/people" />
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:label="@string/fund" />
+    <fragment
+        android:id="@+id/navigation_rentit"
+        android:label="@string/profile"/>
+
+</navigation>
