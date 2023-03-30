@@ -6,7 +6,6 @@
     app:startDestination="@id/navigation_home">
 
     <fragment
-
         android:name="com.example.pgsearch.fragments.HomeFragment"
         tools:layout="@layout/fragment_home"
         android:id="@+id/navigation_home"

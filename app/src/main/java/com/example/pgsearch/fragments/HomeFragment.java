@@ -11,12 +11,14 @@ import androidx.annotation.Nullable;
 
 import com.example.pgsearch.R;
 
-class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment {
+
+    View view;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_home, container, false);
-        return  v;
+        view = inflater.inflate(R.layout.fragment_home, container, false);
+        return  view;
     }
 }
